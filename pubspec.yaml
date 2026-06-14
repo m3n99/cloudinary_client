@@ -1,0 +1,21 @@
+name: cloudinary_client
+description: A lightweight Cloudinary client for Flutter — upload, delete, and manage assets with signed or unsigned requests.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  dio: ^5.8.0
+  crypto: ^3.0.6
+  cross_file: ^0.3.4+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0
+  test: ^1.25.6
